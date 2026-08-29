@@ -1,0 +1,30 @@
+# Python / Тимчасові файли та кеш
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Віртуальне середовище (Virtual Environment)
+.venv/
+venv/
+ENV/
+env/
+
+# Налаштування IDE та редакторів
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Змінні середовища та секрети (КРИТИЧНО для безпеки)
+.env
+.env.*
+!.env.example
+
+# Бази даних та локальні файли даних
+*.db
+*.sqlite
+*.sqlite3
+
+# Журнали та логи
+*.log
